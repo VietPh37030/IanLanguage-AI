@@ -261,11 +261,11 @@ const styles = StyleSheet.create({
     goalsGrid: {
         flexDirection: 'row',
         flexWrap: 'wrap',
-        justifyContent: 'space-between',
-        gap: Spacing.sm,
+        justifyContent: 'center',
+        gap: Spacing.md,
     },
     cardWrapper: {
-        width: (width - Spacing.md * 2 - Spacing.lg * 2 - Spacing.sm) / 2,
+        width: '47%',
     },
     goalCard: {
         alignItems: 'center',

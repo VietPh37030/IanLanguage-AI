@@ -394,11 +394,11 @@ const styles = StyleSheet.create({
     personalityGrid: {
         flexDirection: 'row',
         flexWrap: 'wrap',
-        gap: Spacing.sm,
-        justifyContent: 'space-between',
+        gap: Spacing.md,
+        justifyContent: 'center',
     },
     personalityCardWrapper: {
-        width: (width - Spacing.md * 2 - Spacing.lg * 2 - Spacing.sm) / 2,
+        width: '47%',
     },
     personalityCard: {
         alignItems: 'center',

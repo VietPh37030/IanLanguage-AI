@@ -59,11 +59,11 @@ const LanguageCard: React.FC<LanguageCardProps> = ({
 
     const cardStyle = useAnimatedStyle(() => ({
         backgroundColor: withTiming(
-            isSelected ? 'rgba(255, 255, 255, 0.9)' : 'rgba(255, 255, 255, 0.25)',
+            isSelected ? 'rgba(255, 255, 255, 0.95)' : 'transparent',
             { duration: 200 }
         ),
         borderColor: withTiming(
-            isSelected ? Colors.primary : 'rgba(255, 255, 255, 0.4)',
+            isSelected ? Colors.primary : 'rgba(255, 255, 255, 0.3)',
             { duration: 200 }
         ),
         borderWidth: isSelected ? 3 : 1,

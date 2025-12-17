@@ -113,7 +113,7 @@ export default function SplashScreen() {
 
                     {/* App Title */}
                     <Animated.View style={[styles.titleContainer, titleAnimatedStyle]}>
-                        <Text style={styles.title}>IanLanguage</Text>
+                        <Text style={styles.title}>Ian AI</Text>
                         <Text style={styles.subtitle}>Speak Naturally</Text>
                     </Animated.View>
 
@@ -190,6 +190,10 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         marginTop: Spacing.md,
+    },
+    riveLoading: {
+        width: 80,
+        height: 80,
     },
     footer: {
         position: 'absolute',
